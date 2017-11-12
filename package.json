@@ -1,6 +1,6 @@
 {
-  "name": "mws-api",
-  "version": "3.0.0",
+  "name": "mws-api-extended",
+  "version": "3.0.2",
   "description": "Amazon Marketplace Web Services API client",
   "main": "index.js",
   "scripts": {
@@ -17,18 +17,19 @@
     "fba",
     "sellers"
   ],
-  "author": "Tyson Cleary <tyson@beardon.com> (https://github.com/tyscorp)",
+  "author": "Jeff Allen <jeff.allen127@gmail.com> (https://github.com/vueu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beardon/mws-api/issues"
+    "url": "https://github.com/vueu/mws-api/issues"
   },
-  "homepage": "https://github.com/beardon/mws-api#readme",
+  "homepage": "https://github.com/vueu/mws-api#readme",
   "engines": {
     "node": ">= 4.0.0"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
     "lodash": "^4.17.4",
+    "mws-api-extended": "^3.0.1",
     "request": "^2.81.0",
     "xml2js": "^0.4.17"
   },
