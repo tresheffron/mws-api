@@ -1,14 +1,14 @@
 Arguments: 
-  /usr/local/Cellar/node/8.1.0_1/bin/node /usr/local/bin/yarn publish
+  /usr/local/bin/node /usr/local/bin/yarn publish
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+  /Users/jeff/.rvm/gems/ruby-2.4.1/bin:/Users/jeff/.rvm/gems/ruby-2.4.1@global/bin:/Users/jeff/.rvm/rubies/ruby-2.4.1/bin:/usr/local/opt/php72/bin:/usr/local/opt/openssl/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/usr/local/opt/php72/bin:/usr/local/opt/openssl/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gettext/bin:/Users/jeff/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/jeff/.rvm/bin
 
 Yarn version: 
-  0.24.6
+  0.27.5
 
 Node version: 
-  8.1.0
+  9.0.0
 
 Platform: 
   darwin x64
@@ -16,7 +16,7 @@ Platform:
 npm manifest: 
   {
     "name": "mws-api-extended",
-    "version": "3.0.1",
+    "version": "3.0.4",
     "description": "Amazon Marketplace Web Services API client",
     "main": "index.js",
     "scripts": {
@@ -455,11 +455,12 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
   
   mws-api-extended@^3.0.1:
-    version "3.0.1"
-    resolved "https://registry.yarnpkg.com/mws-api-extended/-/mws-api-extended-3.0.1.tgz#c613aed00e4bd878172b7bd8e9bfaf0e8875cff4"
+    version "3.0.2"
+    resolved "https://registry.yarnpkg.com/mws-api-extended/-/mws-api-extended-3.0.2.tgz#a74fca303387bc4ba2c557b824f03003f8f2ccef"
     dependencies:
       bluebird "^3.5.0"
       lodash "^4.17.4"
+      mws-api-extended "^3.0.1"
       request "^2.81.0"
       xml2js "^0.4.17"
   
@@ -606,14 +607,14 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-9.0.4.tgz#519cb4ca686d005a8420d3496f3f0caeecca580f"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/mws-api-extended: You cannot publish over the previously published version 3.0.1.
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/0.24.6/libexec/lib/yarn-cli.js:56255:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/0.24.6/libexec/lib/yarn-cli.js:107854:22)
-      at emitTwo (events.js:125:13)
-      at Request.emit (events.js:213:7)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/0.24.6/libexec/lib/yarn-cli.js:108837:10)
-      at emitOne (events.js:115:13)
-      at Request.emit (events.js:210:7)
-      at Gunzip.<anonymous> (/usr/local/Cellar/yarn/0.24.6/libexec/lib/yarn-cli.js:108757:12)
-      at Object.onceWrapper (events.js:314:30)
-      at emitNone (events.js:110:20)
+  Error: https://registry.yarnpkg.com/mws-api-extended: You must be logged in to publish packages.
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:58200:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:114242:22)
+      at emitTwo (events.js:135:13)
+      at Request.emit (events.js:224:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:115225:10)
+      at emitOne (events.js:125:13)
+      at Request.emit (events.js:221:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/0.27.5/libexec/lib/yarn-cli.js:115145:12)
+      at Object.onceWrapper (events.js:322:30)
+      at emitNone (events.js:120:20)
